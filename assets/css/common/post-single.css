@@ -34,8 +34,13 @@
 
 .post-content {
     color: var(--content);
+    background-color: var(--theme);
     font-size: 1.125rem;
     line-height: 1.8;
+    margin-bottom: var(--gap);
+    padding: var(--gap);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
 }
 
 .post-content h3,
